@@ -1,0 +1,119 @@
+html {
+  background-color: #3b3b3bfa;
+}
+#root {
+  background-color: #3b3b3bfa;
+  padding: 2rem 0;
+}
+body {
+  background-color: #000000bf;
+}
+.expense-container {
+  height: auto;
+  margin-top: 1.5rem;
+  padding: 0.5rem;
+  background-color: #3b3b3bfa;
+}
+.expense-date {
+  background-color: #d2d2d2;
+  color: black;
+}
+.add-expense {
+  height: auto;
+  padding: 1rem;
+  background-color: #3b3b3bfa;
+  color: white;
+}
+.add-expense input {
+  outline: none;
+  width: 90%;
+}
+button[type="submit"] {
+  text-decoration: none;
+  outline: none;
+  border: none;
+  background-color: white;
+}
+.expense {
+  background-color: #d2d2d2;
+  width: 50%;
+  margin: 0 auto;
+  padding: 1rem;
+}
+.expenses-filter {
+  color: white;
+  padding: 0 1rem;
+}
+.expenses-filter__control {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  margin: 1rem 0;
+}
+.expenses-filter label {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+.expenses-filter select {
+  font: inherit;
+  padding: 0.5rem 3rem;
+  font-weight: bold;
+  border-radius: 6px;
+}
+.addButton {
+  display: block;
+  margin: auto;
+  text-decoration: none;
+  outline: none;
+  border: none;
+  background-color: white;
+}
+.monthly-expense {
+  padding: 1rem;
+  border-radius: 12px;
+  background-color: white;
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  height: 10rem;
+  width: 95%;
+  margin: auto;
+}
+
+.monthly-expense-bar {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 5%;
+}
+
+.monthly-expense__inner {
+  height: 100%;
+  width: 100%;
+  border: 1px solid #313131;
+  border-radius: 12px;
+  background-color: #d2d2d2;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.monthly-expense__fill {
+  background-color: #3b3b3bfa;
+  width: 100%;
+  transition: all 0.3s ease-out;
+}
+
+.monthly-expense__label {
+  font-weight: bold;
+  font-size: 0.75rem;
+  text-align: center;
+}
+button[type="button"] {
+  background-color: white;
+  outline: none;
+  border: none;
+}
